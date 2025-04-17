@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#counter {
+    text-align: center;
+    padding: 12px;
+}
+
+#counter h3 {
+    font-size: 22px;
+    margin: 2px 0px;
+}
+
+#counter p {
+    margin: 2px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#main {
+    margin: 40px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    animation: slideIn 0.8s ease;
+}
+
+button {
+    width: 100px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+@keyframes slideIn {
+    0% {
+        left: -200px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}

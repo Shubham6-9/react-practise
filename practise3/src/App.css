@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+#card {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.3s ease;
+}
+
+#card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#image {
+    height: 250px;
+    width: 100%;
+}
+
+#card p {
+    line-height: 8px;
+}
+
+#location {
+    margin: 30px 0px;
+}
+
+#location span {
+    font-weight: 400;
+}
+
+#mode {
+    height: 35px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+}
