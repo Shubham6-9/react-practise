@@ -1,0 +1,77 @@
+#add, #delete {
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#add h1, #delete h1 {
+    text-align: center;
+}
+
+#add input, #delete input {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid;
+}
+
+#add input[type="submit"], #delete input[type="submit"] {
+    width: 60px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#add input[type="submit"]:hover {
+    background-color: rgb(223, 223, 223);
+
+}
+
+#err {
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+
+#mainavbar{
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainavbar button{
+    height: 35px;
+    width: 50px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#cards {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#cards>div {
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(97, 79, 255, 0.771) 0px 3px 8px;
+}
+
+/* #delete{
+    border: 1px solid  red;
+    width: 200px;
+}
+#delete input{
+    width: 180px;
+} */
